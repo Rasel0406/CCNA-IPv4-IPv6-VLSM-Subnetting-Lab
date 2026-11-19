@@ -1,0 +1,34 @@
+
+User LAN has 520 Hosts
+--------------------------------------
+subnet mask --- 255.255.252.0
+Gateway-- 172.16.3.254
+pc01--- 172.16.0.1
+pc02--- 172.16.1.4
+printer-- 172.16.2.3
+use switch -- 172.16.3.253
+
+IPv6:	
+---------
+Gateway ----  2001:211:DAC:A::0/64
+pc01--- 2001:211:DAC:A::1
+pc02 --- 2001:211:DAC:A::2
+printer ---- 2001:211:DAC:A::3    
+
+Server LAN has 12 hosts.
+-------------------------------------
+mask --- 255.255.255.240
+gateway ---172.16.8.110
+www.manirul.net --- 172.16.8.97
+www.salsabil.net  ---  172.16.8.98
+DNS and TFTP ---- 172.16.8.99
+server switch ---172.16.8.109
+IPv6:
+--------------
+Gateway ---  2001:211:DAC:E::0 /64
+www.manirul.net---- 2001:211:DAC:E::1
+www.salsabil.net ---2001:211:DAC:E::2
+DNS and TFTP ---  2001:211:DAC:E::3
+
+
+
