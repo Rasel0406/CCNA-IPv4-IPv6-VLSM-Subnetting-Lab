@@ -65,10 +65,10 @@ The network consists of two LANs:
 
 | Device | IPv6 Address |
 |---|---|
-| Gateway | `2001:211:DAC:A::1/64` |
-| PC1 | `2001:211:DAC:A::2/64` |
-| PC2 | `2001:211:DAC:A::3/64` |
-| Printer | `2001:211:DAC:A::4/64` |
+| Gateway | `2001:211:DAC:A::0/64` 
+| PC1 | `2001:211:DAC:A::1/64` 
+| PC2 | `2001:211:DAC:A::2/64` 
+| Printer | `2001:211:DAC:A::3/64` 
 
 ### Server LAN — 15th Subnet
 
@@ -76,10 +76,10 @@ The network consists of two LANs:
 
 | Device | IPv6 Address |
 |---|---|
-| Gateway | `2001:211:DAC:E::1/64` |
-| Web Server 1 | `2001:211:DAC:E::2/64` |
-| Web Server 2 | `2001:211:DAC:E::3/64` |
-| DNS & TFTP Server | `2001:211:DAC:E::4/64` |
+| Gateway | `2001:211:DAC:E::0/64` |
+| Web Server 1 | `2001:211:DAC:E::1/64` |
+| Web Server 2 | `2001:211:DAC:E::2/64` |
+| DNS & TFTP Server | `2001:211:DAC:E::3/64` |
 
 ## 🛠️ Technologies & Tools
 
